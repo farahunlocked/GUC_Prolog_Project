@@ -250,7 +250,7 @@ getOffer(ChosenPrefs,Draft,Offer):-
 
 
 
-%__________________________________________________recommendOfferForCustomer/3_________________________________________%
+%__________________________________________________recommendOfferForCustomer/3_________________________________________
 
 
 recommendOfferForCustomer(Prefs, ChosenPrefs, O):-
@@ -258,7 +258,7 @@ recommendOfferForCustomer(Prefs, ChosenPrefs, O):-
 	getOffer(ChosenPrefs,O).
 
 
-%___________________________________________________recommendOffer/4__________________________________________%
+%___________________________________________________recommendOffer/4__________________________________________
 
 recommendOffer(_,[],_,[]).
 recommendOffer(Customers, PreferenceList, Offer, CustomersChosen):-
